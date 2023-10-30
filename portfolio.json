@@ -16,8 +16,8 @@
         "summary" : "ソフトウェアエンジニアのためのUML問題集を提供するアプリケーション",
         "content" : "PlantUML-Serverは、ソフトウェアエンジニアのためのUML問題集を提供するアプリケーションです。<br>ユーザーはUML問題集の中から練習したい問題を選び、問題を解くことでPlantUMLについての理解を深められます。<br>このプロジェクトは、一人ですべての開発を行いました。<br>フロントエンドは、HTML/CSS/JavaScriptを使用しJSONファイルを読み込むことでUML問題集のテーブルや問題の表示を管理しました。<br>バックエンドは、PHPを使用しPreviewやチートシートとして表示するファイルを生成させました。<br>このプロジェクトでは、UML問題集と問題ページ間を遷移させる際のデータの受け渡し方を学ぶことができました。",
         "source" : "https://github.com/Aki158/PlantUML-Server",
-        "view" : "",
-        "thumbnail" : "../Img/"
+        "view" : "https://plantuml-server.aki158-website.blog",
+        "thumbnail" : "../Img/PlantUML-Server.gif"
     },
     {
         "id" : 3,
@@ -26,7 +26,7 @@
         "summary" : "ブラウザ上でMarkdownからHTMLへ変換するアプリケーション",
         "content" : "Markdown-to-HTMLは、ブラウザ上でMarkdownからHTMLへ変換するアプリケーションです。<br>ユーザーは、エディタにMarkdownを記述するとリアルタイムでPreviewにHTMLが表示されます。<br>このプロジェクトは、一人ですべての開発を行いました。<br>フロントエンドは、HTML/CSS/JavaScriptを使用しブラウザ上で作業を完結できるようなウェブデザインにしました。<br>バックエンドは、PHP/Pythonを使用しMarkdownからHTMLへ変換させる処理を実装しています。<br>このプロジェクトでは、リアルタイムを実現させるための非同期処理の基本を学ぶことができました。",
         "source" : "https://github.com/Aki158/Markdown-to-HTML",
-        "view" : "",
+        "view" : "https://markdown-to-html.aki158-website.blog/",
         "thumbnail" : "../Img/"
     },
     {
@@ -36,7 +36,7 @@
         "summary" : "ユーザーがフォームを入力し、レストランチェーン企業のモックアップページを出力させるアプリケーション",
         "content" : "Restaurant-Chain-Mockup-Extensionは、ユーザーがフォームを入力し、レストランチェーン企業のモックアップページを出力させるアプリケーションです。<br>ユーザーは入力フォームより必要な情報を入力し、入力情報をもとにレストランチェーン企業のモックアップページが生成されます。<br>このプロジェクトは、Restaurant-Chain-Mockupの拡張版で一人ですべての開発を行いました。<br>フロントエンドは、HTML/CSSを使用し入力フォームをデザインを追加しました。<br>バックエンドは、PHPを使用し入力情報を条件として表示させる処理を実装しています。<br>このプロジェクトでは、オブジェクト指向で実装されたプログラムを拡張する経験と入力フォームから送信されたPOSTリクエストの処理方法を学ぶことができました。",
         "source" : "https://github.com/Aki158/Restaurant-Chain-Mockup-Extension",
-        "view" : "",
+        "view" : "https://restaurant-chain-mockup-extension.aki158-website.blog/",
         "thumbnail" : "../Img/Restaurant-Chain-Mockup-Extension.png"
     },
     {
@@ -46,7 +46,7 @@
         "summary" : "レストランチェーン企業のモックアップページを出力させるアプリケーション",
         "content" : "Restaurant-Chain-Mockupは、レストランチェーン企業のモックアップページを出力させるアプリケーションです。<br>このプロジェクトは、一人ですべての開発を行いました。<br>フロントエンドは、HTML/CSSを使用しデザインとしてアコーディオンをとりいれました。<br>バックエンドは、PHPを使用しFakerを使用して生成された偽の情報を入力として表示させる処理を実装しています。<br>このプロジェクトでは、オブジェクト指向のアプローチによるメンテナンスの容易さを意識した実装の経験が得られました。",
         "source" : "https://github.com/Aki158/Restaurant-Chain-Mockup",
-        "view" : "",
+        "view" : "https://restaurant-chain-mockup.aki158-website.blog/",
         "thumbnail" : "../Img/Restaurant-Chain-Mockup.png"
     },
     {

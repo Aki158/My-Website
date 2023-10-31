@@ -1,9 +1,3 @@
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
 table {
     width: 100%;
     border-collapse: collapse;
@@ -27,6 +21,12 @@ th, td {
 .custom-link {
     color: black !important;
     text-decoration: underline !important;
+}
+
+#table_of_contents {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 #backToTop {

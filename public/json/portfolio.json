@@ -7,7 +7,7 @@
         "content" : "Online-Chat-Messengerは、リアルタイムでグループチャットを手軽に行えるアプリケーションです。<br>ユーザーは必要な情報を入力しチャットルームの作成か既存のチャットルームへの参加ができます。<br>チャットルームに入ったあとは、他のユーザーとグループチャットでコミュニケーションをとることができます。<br>このプロジェクトは、チームで開発しました。<br>実装はTCPとUDP、それぞれのクライアントとサーバでタスクを分けることができました。<br>アプリケーションの実装はすべてPythonで行いました。<br>チーム開発では、リーダーを担当したため、仕様を整理してからメンバーとタスクを分担しました。<br>私は主にTCPのクライアントとUDPのクライアント/サーバーを担当しました。<br>このプロジェクトでは、TCP/UDPの理解とチーム開発でのリーダー経験を積むことができました。",
         "source" : "https://github.com/Recursion-Group-Backend-c/Online-Chat-Messenger",
         "view" : "",
-        "thumbnail" : "../Img/Online-Chat-Messenger.png"
+        "thumbnail" : "public/images/Online-Chat-Messenger.png"
     },
     {
         "id" : 2,
@@ -17,7 +17,7 @@
         "content" : "PlantUML-Serverは、ソフトウェアエンジニアのためのUML問題集を提供するアプリケーションです。<br>ユーザーはUML問題集の中から練習したい問題を選び、問題を解くことでPlantUMLについての理解を深められます。<br>このプロジェクトは、一人ですべての開発を行いました。<br>フロントエンドは、HTML/CSS/JavaScriptを使用しJSONファイルを読み込むことでUML問題集のテーブルや問題の表示を管理しました。<br>バックエンドは、PHPを使用しPreviewやチートシートとして表示するファイルを生成させました。<br>このプロジェクトでは、UML問題集と問題ページ間を遷移させる際のデータの受け渡し方を学ぶことができました。",
         "source" : "https://github.com/Aki158/PlantUML-Server",
         "view" : "https://plantuml-server.aki158-website.blog",
-        "thumbnail" : "../Img/PlantUML-Server.png"
+        "thumbnail" : "public/images/PlantUML-Server.png"
     },
     {
         "id" : 3,
@@ -27,7 +27,7 @@
         "content" : "Markdown-to-HTMLは、ブラウザ上でMarkdownからHTMLへ変換するアプリケーションです。<br>ユーザーは、エディタにMarkdownを記述するとリアルタイムでPreviewにHTMLが表示されます。<br>このプロジェクトは、一人ですべての開発を行いました。<br>フロントエンドは、HTML/CSS/JavaScriptを使用しブラウザ上で作業を完結できるようなウェブデザインにしました。<br>バックエンドは、PHP/Pythonを使用しMarkdownからHTMLへ変換させる処理を実装しています。<br>このプロジェクトでは、リアルタイムを実現させるための非同期処理の基本を学ぶことができました。",
         "source" : "https://github.com/Aki158/Markdown-to-HTML",
         "view" : "https://markdown-to-html.aki158-website.blog",
-        "thumbnail" : "../Img/Markdown-to-HTML.png"
+        "thumbnail" : "public/images/Markdown-to-HTML.png"
     },
     {
         "id" : 4,
@@ -37,7 +37,7 @@
         "content" : "Restaurant-Chain-Mockup-Extensionは、ユーザーがフォームを入力し、レストランチェーン企業のモックアップページを出力させるアプリケーションです。<br>ユーザーは入力フォームより必要な情報を入力し、入力情報をもとにレストランチェーン企業のモックアップページが生成されます。<br>このプロジェクトは、Restaurant-Chain-Mockupの拡張版で一人ですべての開発を行いました。<br>フロントエンドは、HTML/CSSを使用し入力フォームをデザインを追加しました。<br>バックエンドは、PHPを使用し入力情報を条件として表示させる処理を実装しています。<br>このプロジェクトでは、オブジェクト指向で実装されたプログラムを拡張する経験と入力フォームから送信されたPOSTリクエストの処理方法を学ぶことができました。",
         "source" : "https://github.com/Aki158/Restaurant-Chain-Mockup-Extension",
         "view" : "https://restaurant-chain-mockup-extension.aki158-website.blog",
-        "thumbnail" : "../Img/Restaurant-Chain-Mockup-Extension.png"
+        "thumbnail" : "public/images/Restaurant-Chain-Mockup-Extension.png"
     },
     {
         "id" : 5,
@@ -47,7 +47,7 @@
         "content" : "Restaurant-Chain-Mockupは、レストランチェーン企業のモックアップページを出力させるアプリケーションです。<br>このプロジェクトは、一人ですべての開発を行いました。<br>フロントエンドは、HTML/CSSを使用しデザインとしてアコーディオンをとりいれました。<br>バックエンドは、PHPを使用しFakerを使用して生成された偽の情報を入力として表示させる処理を実装しています。<br>このプロジェクトでは、オブジェクト指向のアプローチによるメンテナンスの容易さを意識した実装の経験が得られました。",
         "source" : "https://github.com/Aki158/Restaurant-Chain-Mockup",
         "view" : "https://restaurant-chain-mockup.aki158-website.blog",
-        "thumbnail" : "../Img/Restaurant-Chain-Mockup.png"
+        "thumbnail" : "public/images/Restaurant-Chain-Mockup.png"
     },
     {
         "id" : 6,
@@ -57,7 +57,7 @@
         "content" : "Food-Service-Simulationは、簡易的なレストランの注文システムです。<br>このプロジェクトは、一人ですべての開発を行いました。<br>PHPを使用しクラス毎にファイルを分け、オブジェクト指向プログラミングの四大柱(カプセル化、抽象化、継承、ポリモーフィズム)<br>に関わるコードを書きました。<br>このプロジェクトでは、PHPの基本的な文法とオブジェクト指向プログラミングの理解を深めました。",
         "source" : "https://github.com/Aki158/Food-Service-Simulation",
         "view" : "",
-        "thumbnail" : "../Img/Food-Service-Simulation.png"
+        "thumbnail" : "public/images/Food-Service-Simulation.png"
     },
     {
         "id" : 7,
@@ -67,7 +67,7 @@
         "content" : "Resume-Websiteは、職務経歴書とポートフォリオの静的ウェブサイトです。<br>ユーザーは、職務経歴書とポートフォリオを見ることができます。<br>今見ているウェブサイトは、このプロジェクトで作成したポートフォリオになります。<br>このプロジェクトは、一人ですべての開発を行いました。<br>このプロジェクトでは、HTML/CSS/JavaScriptで静的なウェブサイトを作成し自身のサーバーにデプロイする経験が得られました。",
         "source" : "https://github.com/Aki158/Resume-Website",
         "view" : "https://resume-website.aki158-website.blog",
-        "thumbnail" : "../Img/Resume-Website.png"
+        "thumbnail" : "public/images/Resume-Website.png"
     },
     {
         "id" : 8,
@@ -77,7 +77,7 @@
         "content" : "Video-Compressor-Serviceは、動画を圧縮し、異なるフォーマットや解像度に変換することができるアプリケーションです。<br>ユーザーは動画をフォルダに格納しCLIの記載に従って進めるだけで、サービスを利用できます。<br>このプロジェクトは、一人ですべての開発を行いました。<br>サーバーサイドではFFMPEGライブラリを使用し言語はPythonを利用してすべてのサービスを実現させています。<br>このプロジェクトでは、TCP/UDPを利用したサービスの理解を深めることができました。",
         "source" : "https://github.com/Aki158/Video-Compressor-Service",
         "view" : "",
-        "thumbnail" : "../Img/Video-Compressor-Service.png"
+        "thumbnail" : "public/images/Video-Compressor-Service.png"
     },
     {
         "id" : 9,
@@ -87,7 +87,7 @@
         "content" : "Remote-Procedure-Callは、クライアント(JavaScript)とサーバ(Python)で異なる言語の場合クライアントプログラムがサーバ上の機能を呼び出せるシステムです。<br>リクエストとレスポンスはJSON形式のメッセージでやりとりします。<br>クライアントからサーバにリクエストして、サーバはクライアントから受け取った情報をもとにサーバ上の機能を実行しレスポンスを返します。<br>このプロジェクトは、一人ですべての開発を行いました。<br>このプロジェクトでは、これまでPythonを中心に学習を進めてきたので、JavaScript(Node.js)でできることを理解し<br>異なる言語でデータをやりとりする仕組みを学べました。",
         "source" : "https://github.com/Aki158/Remote-Procedure-Call",
         "view" : "",
-        "thumbnail" : "../Img/Remote-Procedure-Call.png"
+        "thumbnail" : "public/images/Remote-Procedure-Call.png"
     },
     {
         "id" : 10,
@@ -97,7 +97,7 @@
         "content" : "Local-Chat-Messengerは、UDP通信を用いて、クライアント/サーバ間でのデータ送受信を行えるアプリケーションです。<br>このプロジェクトは、一人ですべての開発を行いました。<br>このプロジェクトでは、Pythonを利用しlocal環境でのTCP/UDP通信の基本を理解し実装する経験を得られました。",
         "source" : "https://github.com/Aki158/Local-Chat-Messenger",
         "view" : "",
-        "thumbnail" : "../Img/Local-Chat-Messenger.png"
+        "thumbnail" : "public/images/Local-Chat-Messenger.png"
     },
     {
         "id" : 11,
@@ -107,7 +107,7 @@
         "content" : "Markdown-to-HTML-Converterは、MarkdownからHTMLへ変換するアプリケーションです。<br>ユーザーは、マークダウンファイル(.md)を作成しこのアプリケーションを利用することで<br>HTML版のファイルをダウンロードできます。<br>このプロジェクトは、一人ですべての開発を行いました。<br>CLI上でコマンドを入力する必要がありますが、入力が適切かチェックする機能も実装しています。<br>このプロジェクトでは、Pythonを利用しファイルの読み書きや初めて利用するmarkdownライブラリの機能について学べました。",
         "source" : "https://github.com/Aki158/Markdown-to-HTML-Converter",
         "view" : "",
-        "thumbnail" : "../Img/Markdown-to-HTML-Converter.png"
+        "thumbnail" : "public/images/Markdown-to-HTML-Converter.png"
     },
     {
         "id" : 12,
@@ -117,7 +117,7 @@
         "content" : "File-Manipulator-Programは、CLI上で実行できるコマンドとその機能を提供するスクリプトです。<br>このプロジェクトは、一人ですべての開発を行いました。<br>CLI上でコマンドを入力する必要がありますが、このコマンドを引数として受け取りPythonで処理しています。<br>Pythonの組み込み関数を使用することで実装を容易にしています。<br>このプロジェクトでは、ユーザーに提供できるサービスを初めて作成する体験が得られました。",
         "source" : "https://github.com/Aki158/File-Manipulator-Program",
         "view" : "",
-        "thumbnail" : "../Img/File-Manipulator-Program.png"
+        "thumbnail" : "public/images/File-Manipulator-Program.png"
     },
     {
         "id" : 13,
@@ -127,6 +127,6 @@
         "content" : "Guess-the-number-gameは、数字を入力して推測するゲームです。<br>ユーザーに2つの数字を入力してもらい、その数字の範囲内で乱数を生成します。<br>ユーザーは生成された数字を推測し、ヒントをもとに正解に近づけていきます。<br>このプロジェクトは、一人ですべての開発を行いました。<br>このプロジェクトでは、UbuntuとPythonが利用できる環境の構築とPythonの基本を理解し<br>アウトプットすることができました。",
         "source" : "https://github.com/Aki158/Guess-the-number-game",
         "view" : "",
-        "thumbnail" : "../Img/Guess-the-number-game.png"
+        "thumbnail" : "public/images/Guess-the-number-game.png"
     }
 ]

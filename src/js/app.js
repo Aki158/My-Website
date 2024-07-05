@@ -31,6 +31,15 @@ window.addEventListener("load", (event) => {
 });
 
 function render_portfolio(index,portfolio_hashmap_arr){
+
+    var tag_list = "";
+
+    if(portfolio_hashmap_arr[index].tag != undefined && portfolio_hashmap_arr[index].tag.length > 0){
+        for (var i = 0; i < portfolio_hashmap_arr[index].tag.length; i++) {
+            tag_list += `<span class="my-1 bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">${portfolio_hashmap_arr[index].tag[i]}</span>`;
+        }    
+    }
+
     const templete = `
         <div class="bg-white border border-gray-200 rounded-lg shadow-lg hover:bg-gray-100 dark:bg-gray-900 dark:border-gray-700 dark:hover:bg-gray-800 p-3 space-y-1">
             <img class="h-auto max-w-full rounded-lg"
@@ -39,6 +48,9 @@ function render_portfolio(index,portfolio_hashmap_arr){
             />
             <p class="text-sm dark:text-white pt-1">${portfolio_hashmap_arr[index].title}</p>
             <p class="text-sm text-gray-700 dark:text-gray-400">${portfolio_hashmap_arr[index].summary}</p>
+            <div class="flex flex-wrap">
+                ${tag_list}
+            </div>
             <div class="py-3">
                 <a href="${portfolio_hashmap_arr[index].source}" class="mb-1 text-base font-medium p-2 rounded-lg text-white bg-indigo-500 hover:bg-indigo-600">README</a>
             </div>

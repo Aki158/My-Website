@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aki158 Website</title>
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <link href="./css/output.css" rel="stylesheet">
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+</head>
+<body class="flex flex-col h-screen bg-white dark:bg-black">
+    <header class="antialiased">
+        <nav class="border-gray-200 px-4 py-2.5 md:px-6">
+            <div class="flex flex-wrap items-center justify-between">
+            <!-- アプリケーション名 -->
+            <a href="" class="font-serif italic text-2xl dark:text-white">Aki158 Website</a>
+
+            <div class="flex space-x-4 py-3 md:py-0">
+                <!-- About -->
+                <div class="flex items-center">
+                    <a href="#about" class="p-2 md:px-4 md:py-2.5  dark:text-whiteml-1 cursor-pointer rounded font-bold text-gray-800 hover:bg-gray-100 hover:text-gray-900 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:ml-3 md:inline">About</a>
+                </div>
+
+                <!-- Projects -->
+                <div class="flex items-center">
+                    <a href="#projects" class="p-2 md:px-4 md:py-2.5  dark:text-whiteml-1 cursor-pointer rounded font-bold text-gray-800 hover:bg-gray-100 hover:text-gray-900 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:ml-3 md:inline">Projects</a>
+                </div>
+
+                <!-- Report -->
+                <div class="flex items-center">
+                    <a href="https://github.com/Aki158/weekly-report" class="p-2 md:px-4 md:py-2.5  dark:text-whiteml-1 cursor-pointer rounded font-bold text-gray-800 hover:bg-gray-100 hover:text-gray-900 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:ml-3 md:inline">Report</a>
+                </div>
+
+                <!-- テーマ(ダーク/ライト)切り替えボタン -->
+                <button id="theme-button" data-tooltip-target="theme-tooltip" data-tooltip-placement="bottom" aria-expanded="true" aria-controls="sidebar" class="p-2 md:px-4 md:py-2.5  dark:text-whiteml-1 cursor-pointer rounded text-gray-800 hover:bg-gray-100 hover:text-gray-900 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:ml-3 md:inline"></button>
+                <div id="theme-tooltip" role="tooltip" class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm dark:bg-gray-700">
+                    <div class="tooltip-arrow" data-popper-arrow></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="about" class="my-6 flex flex-col items-center justify-center">
+            <div class="space-y-6 mx-4">
+                <div class="block max-w-md p-6 bg-white border border-gray-200 rounded-lg shadow-xl hover:bg-gray-100 dark:bg-gray-900 dark:border-gray-700 dark:hover:bg-gray-800">
+                    <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">自己紹介</h2>
+                    <p class="text-gray-700 dark:text-gray-400">
+                        初めまして、ソフトウェアエンジニアの<strong>Aki158</strong>です。
+                        組み込みシステムやWeb技術を利用した<strong>ものづくり</strong>が好きな社会人です。
+                        18歳の頃から初めてプログラミングに出会って以来、組み込みエンジニアとして5年程車載開発に従事してきました。
+                        現在は、コンピュータサイエンスに興味を持ったことをきっかけにWeb技術について学習しています。
+                        今後のキャリアの目標は、組み込みエンジニアからバックエンドエンジニアへ転向することです。<br>
+                        よろしくお願いします！
+                    </p>
+
+                    <div class="flex py-4 space-x-4">
+                        <a href="https://github.com/Aki158" data-tooltip-target="github-tooltip" data-tooltip-placement="bottom" aria-expanded="true" aria-controls="sidebar" >
+                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                <path fill-rule="evenodd" d="M12.006 2a9.847 9.847 0 0 0-6.484 2.44 10.32 10.32 0 0 0-3.393 6.17 10.48 10.48 0 0 0 1.317 6.955 10.045 10.045 0 0 0 5.4 4.418c.504.095.683-.223.683-.494 0-.245-.01-1.052-.014-1.908-2.78.62-3.366-1.21-3.366-1.21a2.711 2.711 0 0 0-1.11-1.5c-.907-.637.07-.621.07-.621.317.044.62.163.885.346.266.183.487.426.647.71.135.253.318.476.538.655a2.079 2.079 0 0 0 2.37.196c.045-.52.27-1.006.635-1.37-2.219-.259-4.554-1.138-4.554-5.07a4.022 4.022 0 0 1 1.031-2.75 3.77 3.77 0 0 1 .096-2.713s.839-.275 2.749 1.05a9.26 9.26 0 0 1 5.004 0c1.906-1.325 2.74-1.05 2.74-1.05.37.858.406 1.828.101 2.713a4.017 4.017 0 0 1 1.029 2.75c0 3.939-2.339 4.805-4.564 5.058a2.471 2.471 0 0 1 .679 1.897c0 1.372-.012 2.477-.012 2.814 0 .272.18.592.687.492a10.05 10.05 0 0 0 5.388-4.421 10.473 10.473 0 0 0 1.313-6.948 10.32 10.32 0 0 0-3.39-6.165A9.847 9.847 0 0 0 12.007 2Z" clip-rule="evenodd"/>
+                            </svg>
+                            <div id="github-tooltip" role="tooltip" class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm dark:bg-indigo-500">
+                                GitHub
+                                <div class="tooltip-arrow" data-popper-arrow></div>
+                            </div>
+                        </a>
+
+                        <a href="https://x.com/HK33608602" data-tooltip-target="x-tooltip" data-tooltip-placement="bottom" aria-expanded="true" aria-controls="sidebar" >
+                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M13.795 10.533 20.68 2h-3.073l-5.255 6.517L7.69 2H1l7.806 10.91L1.47 22h3.074l5.705-7.07L15.31 22H22l-8.205-11.467Zm-2.38 2.95L9.97 11.464 4.36 3.627h2.31l4.528 6.317 1.443 2.02 6.018 8.409h-2.31l-4.934-6.89Z"/>
+                            </svg>    
+                            <div id="x-tooltip" role="tooltip" class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm dark:bg-indigo-500">
+                                X(Twitter)
+                                <div class="tooltip-arrow" data-popper-arrow></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div id="projects" class="mx-4 my-6 flex flex-col items-center justify-center">
+            <div class="md:w-2/3 space-y-2">
+                <h2 class="text-3xl dark:text-white">Projects</h2>
+                <p class="text-gray-700 dark:text-gray-400">
+                    アウトプットとして、多くのポートフォリオを作成しました。<br>
+                    気になるプロジェクトのREADMEをクリックしてみてください。
+                </p>
+
+                <h3 class="text-xl dark:text-white">Webアプリケーション</h3>
+                <div class="flex justify-center">
+                    <div id="web-app" class="grid grid-cols-2 items-center gap-4 py-2 lg:grid-cols-3"></div>
+                </div>
+
+                <h3 class="text-xl dark:text-white">ローカルアプリケーション</h3>
+                <div class="flex justify-center">
+                    <div id="local-app" class="grid grid-cols-2 items-center gap-4 py-2 lg:grid-cols-3"></div>
+                </div>
+
+                <h3 class="text-xl dark:text-white">ゲーム</h3>
+                <div class="flex justify-center">
+                    <div id="game" class="grid grid-cols-2 items-center gap-4 py-2 lg:grid-cols-3"></div>
+                </div>
+
+                <h3 class="text-xl dark:text-white">ロボット</h3>
+                <div class="flex justify-center">
+                    <div id="robot" class="grid grid-cols-2 items-center gap-4 py-2 lg:grid-cols-3"></div>
+                </div>
+            </div>
+        </div>
+
+        <button id="backToTop" onclick="scrollToTop()" style="display:none;" class="fixed p-2.5 text-white rounded-lg bg-emerald-400 hover:bg-emerald-500">⬆Back to Top</button>
+    </main>
+
+    <footer>
+        <p class="border-gray-600 py-3 text-center dark:text-white">© 2024 Aki158 Website</p>
+    </footer>
+
+    <script src='./js/app.js'></script>
+    <script src='./js/theme.js'></script>
+</body>
+</html>
